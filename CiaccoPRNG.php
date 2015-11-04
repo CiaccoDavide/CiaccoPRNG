@@ -6,8 +6,8 @@
   
     private static $tree = 0;
     
-    // set seed
-    public static function seed($seed = 0) {
+    // set the seed
+    public static function plantSeed($seed = 0) {
       self::$tree = abs(intval($seed)) % 9999999+1;
       self::getRand();
     }
