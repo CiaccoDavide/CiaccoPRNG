@@ -1,6 +1,6 @@
 <?php
-  namespace ciacco_twister;
-  class RandomCiacco {
+  namespace ciacco_PRNG;
+  class CiaccoPRNG {
   
     private static $tree = 0;
     
