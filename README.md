@@ -7,13 +7,13 @@ A simple PRNG algorithm implemented in various languages! Same seed same sequenc
 
 >PHP:
 
-    require_once "ciacco_twister.php";
-    use ciacco_twister\CiaccoRandom;
+    require_once "CiaccoPRNG.php";
+    use ciacco_PRNG\CiaccoPRNG;
     $seed = 123;
     $min = 0;
     $max = 255;
-    CiaccoRandom::seed($seed);
-    CiaccoRandom::getRand($min,$max); // returns a pseudo-random int
+    CiaccoPRNG::seed($seed);
+    CiaccoPRNG::getRand($min,$max); // returns a pseudo-random int
     
 >C#:
 
